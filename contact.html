@@ -1,21 +1,31 @@
 <DOCTYPE html>
 <html>
 <head>
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
 	<title>Ryledra - Vince Martin</title>
 </head>
-<header id="header">
-	<h1>Vincent Michael Nadin Martin BEng(Hons) AMIMechE</h1>
-</header>
+	<header>
+		<h2>Vincent Michael Nadin Martin</h2>
+		<div id="topnav">
+			<a href="index.html">About</a>
+			<a href="projects.html">Projects</a>
+			<a href="skills.html">Skills</a>
+			<a href="contact.html">Contact</a>
+		</div>
+	</header>
 <body>
-	<div class="topnav">
-		<a class="active" href="../">About</a>
-		<a href="projects.html">Projects</a>
-		<a href="skills.html">Skills</a>
-		<a href="contact.html">Contact</a>
-	</div>
-	<h2>Contact</h2>
+	<h3>Contact</h3>
 	<form>
-		<p1>to contact Vince:</p1>
+		<br/>
+		<input type="name" placeholder="Name" alt="enter name" required="required" />
+		<input type="email" placeholder="Email" alt="enter email" required="required" />
+		<input placeholder="Phone Number" alt="enter phone number" required="required" />
+		<br/><p1>Role</p1>
+		<input name="personType"type="radio" /> QA Employee
+		<input name="personType"type="radio" /> Developer
+		<input name="personType"type="radio" /> Recriuter
+		<br/><input type="input" placeholder="Your Message" alt="enter your message" required="required" />
+		<br/><button type="submit">Submit</button>
 	</form>
 </body>
 <footer id="footer">

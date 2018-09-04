@@ -19,6 +19,12 @@ header{
 	text-align: center;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #topnav > a:link{
 	color: #000000;
 }
@@ -48,6 +54,8 @@ table{
 
 th{
 	height: 50px;
+    background-color: #339933;
+    color: white;
 }
 
 td{
